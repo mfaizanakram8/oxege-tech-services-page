@@ -7,25 +7,24 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Oxege Technologies",
+  title: "Nayi Manzil - Portfolio",
   description:
-    "A passionate team driven to develop end-to-end products that build sustainable and scalable social and technical systems. At Oxege Technologies, we thrive on delivering innovative solutions that create meaningful impact, combining technical expertise and creativity to address real-world challenges.",
+    "Explore the official portfolio of Nayi Manzil showcasing web, mobile, AI, and cloud solutions.",
   og: {
-    title: "Oxege Technologies",
+    title: "Nayi Manzil - Portfolio",
     type: "website",
-    url: "http://oxegetechnologies.com/",
+    url: "https://portfolio.nayimanzil.org/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Oxege Technologies",
-  logo_name: "Oxege Technologies",
+  title: "Nayi Manzil",
+  logo_name: "Nayi Manzil",
   nickname: "Technology_Innovators",
   subTitle:
-    "A passionate team driven to develop end-to-end products that build sustainable and scalable social and technical systems. At Oxege Technologies, we thrive on delivering innovative solutions that create meaningful impact, combining technical expertise and creativity to address real-world challenges.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "A multinational technology company driven by innovation and technical excellence, delivering scalable software solutions and impactful digital experiences. With a global presence across the United States, Pakistan, the UAE, and the EU, we empower businesses to grow through high-performance, future-ready digital products.",
+  resumeLink: "https://drive.google.com/",
   portfolio_repository: "https://github.com/mfaizanakram8",
   githubProfile: "https://github.com/mfaizanakram8",
 };
@@ -48,37 +47,32 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/nayimanzil/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/",
+    link: "https://www.youtube.com/@Nayi_Manzil",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:info@oxege.com",
+    link: "mailto:info@nayimanzil.org",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
     name: "Facebook",
-    link: "https://www.facebook.com/",
+    link:
+      "https://www.facebook.com/profile.php?id=61571326381649&sk=&_rdc=2&_rdr=#",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/nayi_manzil/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,13 +81,13 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Software House",
+      title: "IT Services & Consulting",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing scalable, production-ready solutions for diverse industries.",
-        "⚡ Expertise in cutting-edge technologies, including AI, Data Science, Deep Learning, Web & Mobile Development, and Cloud Computing.",
-        "⚡ End-to-end services encompassing custom software development, system architecture, automation, and innovative product design.",
-        "⚡ Committed to delivering impactful solutions tailored to meet dynamic business needs.",
+        "⚡ Developing scalable, production-ready solutions for diverse industries",
+        "⚡ Expertise in AI, Data Science, Deep Learning, Web & Mobile Development, and Cloud Computing",
+        "⚡ End-to-end services including custom software, system architecture, automation, and product design",
+        "⚡ Delivering impactful, business-driven digital solutions",
       ],
       softwareSkills: [
         {
@@ -136,9 +130,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux,Angular & Next.js",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive and high-performance frontends using React, Next.js, and Angular",
+        "⚡ Developing mobile applications using Flutter, React Native, Swift (iOS), and Kotlin (Android)",
+        "⚡ Creating secure and scalable backends using Node.js, Express, Django, Laravel, and Flask",
       ],
       softwareSkills: [
         {
@@ -218,10 +212,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Working with leading cloud platforms including AWS and GCP",
+        "⚡ Deploying, managing, and scaling applications on cloud infrastructure",
+        "⚡ Integrating databases and maintaining reliable system architecture",
+        "⚡ Deploying AI and Deep Learning models for real-world applications",
       ],
       softwareSkills: [
         {
@@ -286,9 +280,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Designing modern, intuitive, and user-centric interfaces for web and mobile applications",
+        "⚡ Crafting brand identities and custom logo designs from scratch",
+        "⚡ Optimizing user journeys and flows to enhance overall user experience",
       ],
       softwareSkills: [
         {
@@ -525,9 +519,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Innovation,Scalability & Collaboration",
+  subtitle: "Innovation, Scalability & Excellence",
   description:
-    "Our software house has extensive experience delivering solutions across all domains of Computer Science and Information Technology. We specialize in Cybersecurity, Web and Mobile App Development, UI/UX Design, Digital Marketing, MERN and MEAN Stack development, and more. From crafting visually stunning designs to deploying scalable, production-ready software systems, we ensure innovation and excellence in every project. Additionally, we actively contribute to open-source communities, organize industry-focused tech events, and foster collaboration to empower the global tech ecosystem while driving impactful and result-oriented solutions for our clients.",
+    "At Nayi Manzil, we bring together a highly experienced team of senior developers, designers, and technology experts with proven expertise across diverse domains of Computer Science and IT. We specialize in AI, Web & Mobile App Development, UI/UX Design, Cloud Computing, and custom software solutions. From building visually engaging interfaces to delivering scalable, production-ready systems, we ensure quality, innovation, and performance in every project. Our team is committed to solving real-world challenges and delivering impactful, result-driven solutions for global clients.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -687,7 +681,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "We specialize in delivering innovative solutions using the latest technologies, including Data Science, AI, Cybersecurity, Full-Stack Development, and UI/UX Design. Our projects are built for scalability and deployed on cloud infrastructure, ensuring seamless performance and real-world impact for businesses.",
+    "At Nayi Manzil, we specialize in creating cutting-edge solutions using the latest technologies, including Data Science, AI, Cybersecurity, Full-Stack Development, and UI/UX Design. Our projects are designed for scalability and reliability, deployed on cloud infrastructure, and optimized for seamless performance, delivering real-world impact for businesses across industries.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -700,25 +694,60 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id: "naploo-tailoring-solution",
+      name: "Naploo Tailoring Solution",
+      createdAt: "2024-01-15T00:00:00Z",
+      description:
+        "A complete tailoring management platform enabling online orders, custom measurements, and seamless client-tailor communication.",
+      url: "https://naploo.nayimanzil.org",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id: "nikharo-ai-resume-checker",
+      name: "Nikharo AI Resume Checker",
+      createdAt: "2024-03-10T00:00:00Z",
+      description:
+        "AI-powered platform that evaluates resumes and provides actionable feedback to optimize for job applications.",
+      url: "https://nikharo.nayimanzil.org",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "nayimanzil-ecommerce-platform",
+      name: "E-Commerce Platform",
+      createdAt: "2024-02-05T00:00:00Z",
+      description:
+        "Custom e-commerce solution with payment integration, product management, and advanced analytics for online stores.",
+      url: "https://nayimanzil.org/projects/ecommerce",
+    },
+    {
+      id: "nayimanzil-healthcare-app",
+      name: "Healthcare Management App",
+      createdAt: "2024-02-28T00:00:00Z",
+      description:
+        "Mobile and web app for hospitals to manage patient records, appointments, and telemedicine services efficiently.",
+      url: "https://nayimanzil.org/projects/healthcare",
+    },
+    {
+      id: "nayimanzil-corporate-website-solutions",
+      name: "Corporate Website Solutions",
+      createdAt: "2024-03-12T00:00:00Z",
+      description:
+        "Professional websites for businesses with responsive design, SEO optimization, and content management features.",
+      url: "https://nayimanzil.org/projects/websites",
+    },
+    {
+      id: "nayimanzil-saas-hris-dbms",
+      name: "SaaS HRIS & DBMS",
+      createdAt: "2024-03-25T00:00:00Z",
+      description:
+        "Cloud-based HRIS and database management system for enterprises, featuring employee management, payroll, and reporting dashboards.",
+      url: "https://nayimanzil.org/projects/saas-hris",
+    },
+    {
+      id: "nayimanzil-photo-editor-app",
+      name: "Photo Editor App",
+      createdAt: "2024-04-01T00:00:00Z",
+      description:
+        "User-friendly mobile and web photo editor with filters, stickers, cropping, and AI-powered enhancements.",
+      url: "https://nayimanzil.org/projects/photo-editor",
     },
   ],
 };
@@ -729,25 +758,53 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "At Oxege, we leverage cutting-edge technologies to deliver impactful and innovative solutions. From AI-powered applications to scalable web platforms, our expertise spans Data Science, Machine Learning, Cybersecurity, Full-Stack Development (MERN & MEAN), UI/UX Design, Digital Marketing, and cloud infrastructure deployment. Every project we undertake empowers businesses to succeed in a digital-first world with seamless performance and scalability.",
+      "At Nayi Manzil, we leverage cutting-edge technologies to deliver innovative and impactful solutions. From AI-powered applications to scalable web platforms, our expertise spans Data Science, Machine Learning, Cybersecurity, Full-Stack Development (MERN & MEAN), UI/UX Design, Digital Marketing, and cloud infrastructure. Every project we undertake is focused on empowering businesses to succeed in a digital-first world with seamless performance and scalability.",
   },
   blogSection: {
     title: "Insights & Experiences",
     subtitle:
-      "At Oxege, we share our professional journey and technical expertise through insightful articles and knowledge-sharing. Explore our curated content to stay informed and inspired..",
-    link: "https://oxegetechnologies.vercel.app/",
+      "At Nayi Manzil, we share our professional journey, industry insights, and technical expertise through valuable content and knowledge-sharing. Explore our resources to stay informed, inspired, and ahead in the tech world.",
+    link: "https://www.nayimanzil.org",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Opposite Khawaja Freed college street number 18, Oxege Technologies Rahim Yar khan, Rahimyar Khan, Pakistan  Phone:0325 3072985",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    title: "Our Offices",
+    subtitle:
+      "Nayi Manzil operates globally with a presence in the USA, Pakistan, Malta, and the UAE. ",
+    phone: "+92 334 6722225",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/h9kKAMKNrZeJtHMh9",
+    location_map_link: "https://www.linkedin.com/company/nayimanzil/about/", // You can update this to a general link or specific per office
+
+    offices: [
+      {
+        name: "Head Office (Primary)",
+        region: "United States",
+        address: "6844 Bardstown Rd, Unit #, Louisville, KY 40291, USA",
+        postalCode: "40291",
+      },
+      {
+        name: "Regional Office",
+        region: "Punjab, Pakistan",
+        address:
+          "Adda Gulmerg Chowk, Near Al-Mehran Sweets, Rahim Yar Khan, Punjab 62400, Pakistan",
+        locality: "Adda Gulmerg Chowk",
+        city: "Rahim Yar Khan",
+        postalCode: "62400",
+      },
+      {
+        name: "Regional Office",
+        region: "Malta, European Union",
+        address: "Mosta, MST 2309, Malta",
+        city: "Mosta",
+        postalCode: "MST 2309",
+      },
+      {
+        name: "Regional Office",
+        region: "United Arab Emirates",
+        address: "Dubai, United Arab Emirates",
+        city: "Dubai",
+      },
+    ],
   },
   phoneSection: {
     title: "",

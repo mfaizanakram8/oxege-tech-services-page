@@ -6,12 +6,7 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import {
-  greeting,
-  projectsHeader,
-  publicationsHeader,
-  publications,
-} from "../../portfolio.js";
+import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
@@ -55,15 +50,12 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"Do you have a project idea?"}
           className="project-button"
-          href={greeting.githubProfile}
+          href="https://www.linkedin.com/company/nayimanzil/about/"
           newTab={true}
           theme={theme}
         />
-
-      
-      
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

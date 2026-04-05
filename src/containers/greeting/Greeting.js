@@ -1,7 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
@@ -24,7 +24,7 @@ export default function Greeting(props) {
               )}
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: theme.secondaryText, fontSize: "33px" }}
               >
                 {greeting.subTitle}
               </p>
